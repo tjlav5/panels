@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+
+    grid-template-areas: "left top right"
+                         "left center right"
+                         "left bottom right";
+}
+
+.left {
+    grid-area: left;
+    border-right: 1px solid #e2e2e2;
+}
+
+.right {
+    grid-area: right;
+    border-left: 1px solid #e2e2e2;
+}
+
+.top {
+    grid-area: top;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.bottom {
+    grid-area: bottom;
+    border-top: 1px solid #e2e2e2;
+}
+
+.center {
+    grid-area: center;
+}

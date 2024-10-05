@@ -1,0 +1,23 @@
+<p>panels works!</p>
+
+<div class="grid">
+    <div class="top">
+        <ng-content select="lib-panel[pos=top]" />
+    </div>
+
+    <div class="bottom">
+        <ng-content select="lib-panel[pos=bottom]" />
+    </div>
+
+    <div class="left">
+        <ng-content select="lib-panel[pos=left]" />
+    </div>
+
+    <div class="right">
+        <ng-content select="lib-panel[pos=right]" />
+    </div>
+
+    <div class="center">
+        <ng-content select="lib-panel" />
+    </div>
+</div>
